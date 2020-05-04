@@ -57,6 +57,14 @@ The tests as expected fail, due to the object not having the implementation of t
 ### Test fails again !?
 The code I wrote(which works perfectly well) doesn't pass the tests? How? Why? Here, we are given a hint, the assertation does not return the expected value.
 
-![test_results](
+![test_results](https://github.com/r0meroh/unit_testing_with_NodeJs/blob/master/node_practice/gradeBook_images/second_set_passes_assertion_fails.PNG)
+
+### Add *reset* functionality to tests
+After looking at the result, the reason the test does not match the expected output, is because there is a test that runs and makes changes to the code before the second test is ran. 
+To fix this, I reset the object by created a different instance of the object. I decided to just empty out the array to keep things simple.
+
+![reset](https://github.com/r0meroh/unit_testing_with_NodeJs/blob/master/node_practice/gradeBook_images/add_reset_tests.PNG)
+
+![reset_code](https://github.com/r0meroh/unit_testing_with_NodeJs/blob/master/node_practice/gradeBook_images/add_reset_function.PNG)
 
 
