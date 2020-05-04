@@ -33,10 +33,30 @@ Here I had an idea for what I wanted the gradeBook object to initially do, add a
 
 ### Adding code to allow test to pass
 So the concept is, come up with an idea that the object is to do, create a test to see if it's possible(which it shouldn't be in our case since we're making an object from scratch) and upon the test failing, figure out what is need to allow the test to pass successfully. 
-So I implement what is necessary for the object to be able to take in and store a grade.
+So I implement what is necessary for the object to be able to take in and store a grade. The test tells us if a score can be added and how many scores have been entered thus far.
 *To not spam this read me with images of the object code too much, I'll post it after the first set of tests are completed.*
 
 
 ![first](https://github.com/r0meroh/unit_testing_with_NodeJs/blob/master/node_practice/gradeBook_images/test_successful_after_first_change.PNG)
 
 ### Adding a Second Test
+The object now takes in a grade but of course I want it to do something more. So, we create another test! Here, not only do I add a test to return the average grade from the scores to be submitted, but I give the test a set of values and an expected value to compare the returned value to. This is called an assertion, it is not only important for the test to check for a returned value, but for the correct value.
+
+
+![second](https://github.com/r0meroh/unit_testing_with_NodeJs/blob/master/node_practice/gradeBook_images/add_second_test.PNG)
+
+
+### Test initally fails
+The tests as expected fail, due to the object not having the implementation of the functionality the tests require, forcing us to write the code for the tests.
+
+![second_test_code](https://github.com/r0meroh/unit_testing_with_NodeJs/blob/master/node_practice/gradeBook_images/second_set_test_fails.PNG)
+
+
+![second_test_object_code](https://github.com/r0meroh/unit_testing_with_NodeJs/blob/master/node_practice/gradeBook_images/second_set_code.PNG)
+
+### Test fails again !?
+The code I wrote(which works perfectly well) doesn't pass the tests? How? Why? Here, we are given a hint, the assertation does not return the expected value.
+
+![test_results](
+
+
