@@ -68,7 +68,28 @@ To fix this, I reset the object by created a different instance of the object. I
 ![reset_code](https://github.com/r0meroh/unit_testing_with_NodeJs/blob/master/node_practice/gradeBook_images/add_reset_function.PNG)
 
 
-### We're done!!
+### One more test and code implementation and We're done!!
+I decided to add one last test to compute a letter grade. So I added the test to our tests file, failed, and added the code required to execute properly within our gradeBook object.
 Now everything works and our tests run flawlessly. Because of the tests, we also have all the functionality from the tests implemented in error free code into our program.
 
-![the_end](https://github.com/r0meroh/unit_testing_with_NodeJs/blob/master/node_practice/gradeBook_images/everything_works.PNG)
+![last_test](https://github.com/r0meroh/unit_testing_with_NodeJs/blob/master/node_practice/gradeBook_images/create_third_test.PNG)
+
+![last_fail](https://github.com/r0meroh/unit_testing_with_NodeJs/blob/master/node_practice/gradeBook_images/thid_test_fail.PNG)
+
+![last_code](https://github.com/r0meroh/unit_testing_with_NodeJs/blob/master/node_practice/gradeBook_images/letter_grade_code.PNG)
+
+![the_end](https://github.com/r0meroh/unit_testing_with_NodeJs/blob/master/node_practice/gradeBook_images/letter_grade_success.PNG)
+
+
+### Adding another Node Module
+Like stated before, this program is silhoutte of a cliche Computer Science assignment, so let's spice it up a bit!! 
+Here I will use the *Node Module* **Express**.
+This will allow us to make a simple browser listener to take in input from the address bar to use in our code.
+
+Here is the basici structure of the code which was made in a separate file along with what we will see when we 'go' to our localhost port that we decided on = as directed in the code:
+
+![empty_browser](https://github.com/r0meroh/unit_testing_with_NodeJs/blob/master/node_practice/gradeBook_images/empty_server.PNG)
+
+![empty_result](https://github.com/r0meroh/unit_testing_with_NodeJs/blob/master/node_practice/gradeBook_images/browser_empty_server.PNG)
+
+
