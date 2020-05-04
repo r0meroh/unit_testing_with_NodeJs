@@ -8,6 +8,23 @@ exports["setUp"] = function(callback){
 
 };
 
+
+//check for a total letter grade
+exports["can compute a letter grade of 'A'"] = function(test) {
+	book.addGrade(100);
+	book.addGrade(90);
+
+	let result = book.getLetterGrade();
+
+	test.equal(result, 'A');
+	test.done();
+};
+
+
+
+
+
+
 //relocated to first test to check validity of assertion
 exports["Can average grades"] = function(test){
 	        book.addGrade(100);

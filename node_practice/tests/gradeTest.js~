@@ -1,5 +1,13 @@
 var book = require("../libby/first").book;
 
+
+//add setup to initialize each test with it's own instance of a gradeBook
+exports["setUp"] = function(callback){
+	book.reset();
+	callback();
+
+};
+
 //relocated to first test to check validity of assertion
 exports["Can average grades"] = function(test){
 	        book.addGrade(100);

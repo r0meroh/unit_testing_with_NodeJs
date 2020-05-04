@@ -8,6 +8,24 @@ var gradeBook = {
 	addGrade: function(newGrade){
 		this._grades.push(newGrade);
 	},
+
+	//function to calculate a letter grade
+	getLetterGrade: function() {
+		let average = this.getAverage();
+		if(average >= 90){
+			return "A";
+		}
+		else if(average >= 80) {
+			return "B";
+		}
+		else if(average >= 70) {
+			return "C";
+		}
+		else if(average >= 60) {
+			return "D";
+		}
+		return "F";
+	},
 	
 	//second function
 	getCountOfGrades: function() {
