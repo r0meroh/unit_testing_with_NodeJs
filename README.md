@@ -89,7 +89,23 @@ This will allow us to make a simple browser listener to take in input from the a
 Here is the basici structure of the code which was made in a separate file along with what we will see when we 'go' to our localhost port that we decided on = as directed in the code:
 
 ![empty_browser](https://github.com/r0meroh/unit_testing_with_NodeJs/blob/master/node_practice/gradeBook_images/empty_server.PNG)
-
+ This looks kinda empty
+ 
+ 
 ![empty_result](https://github.com/r0meroh/unit_testing_with_NodeJs/blob/master/node_practice/gradeBook_images/browser_empty_server.PNG)
+ 
+ 
+ let's add a greeting for now as a placeholder
+ 
+ ![hello_code](https://github.com/r0meroh/unit_testing_with_NodeJs/blob/master/node_practice/gradeBook_images/hello_gradeBook_code.PNG)
+ 
+ 
+ ![hello](https://github.com/r0meroh/unit_testing_with_NodeJs/blob/master/node_practice/gradeBook_images/hello_gradeBook.PNG)
+
+### Listeners to use the program in the browser
+The server is up and running thanks to *express*, so now let's link out server to our program object to be able to take in input, use it in our program, and output the result. As seen in the code, the listener functions are used to take in a string from the address bar called a **query string** and parsed into integers to store in our array before the gradeBook uses the array.
 
 
+![app](https://github.com/r0meroh/unit_testing_with_NodeJs/blob/master/node_practice/gradeBook_images/get_grades_from_browser_code.PNG)
+
+![browser_input](https://github.com/r0meroh/unit_testing_with_NodeJs/blob/master/node_practice/gradeBook_images/using_browser_for_running_program.PNG)
