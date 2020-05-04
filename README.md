@@ -8,6 +8,7 @@
 After using unit tests in Python, I wanted to see If I could take the concepts from that and apply them to Node.JS since that is what I am currently learning.
 A popular program for Computer Software Engineering students is a simple *'GradeBook'*. This is a small program that creates an object called a gradeBook and takes in scores to store. Depending on the implementation of the program, the gradeBook may have a variety of functions to manipulate the input. 
 Since this project of mine is to use *Test Driven Development*, I won't make a complex gradeBook object, but just a simple one using the *Test Driven Development* approach.
+This program was created with concepts included in two different pluralSight courses 'Getting Started with Node.Js' and 'Learning to Program part1: Getting started'.
 
 ### First, **nodeunit** is installed from the *npm* 
 nodeunit is the Node Module that I will use to implement my testing
