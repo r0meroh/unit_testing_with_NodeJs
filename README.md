@@ -68,3 +68,7 @@ To fix this, I reset the object by created a different instance of the object. I
 ![reset_code](https://github.com/r0meroh/unit_testing_with_NodeJs/blob/master/node_practice/gradeBook_images/add_reset_function.PNG)
 
 
+### We're done!!
+Now everything works and our tests run flawlessly. Because of the tests, we also have all the functionality from the tests implemented in error free code into our program.
+
+![the_end](https://github.com/r0meroh/unit_testing_with_NodeJs/blob/master/node_practice/gradeBook_images/everything_works.PNG)
